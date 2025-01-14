@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Bulb Task</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <button id="startButton" class="center-button">Start</button>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <label for="numBulbs">Custom Lightening:</label>
+                <input type="custom" id="numBulbs" min="1">
+                <button id="doneButton" class="center-button">Done</button>
+            </div>
+        </div>
+        <div id="bulbContainer"></div>
+        <button id="resetButton" class="center-button hidden">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
